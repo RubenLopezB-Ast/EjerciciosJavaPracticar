@@ -17,5 +17,8 @@ public class ejerPrueba3 {
         Scanner precio = new Scanner(System.in);
         System.out.println("Pon precio con dos decimales: ");
         double precioProducto =  precio.nextDouble();
+        double precioFinal = (precioProducto *21/100) + precioProducto;
+        System.out.println("El precio final es " + precioFinal);
+
     }
 }
